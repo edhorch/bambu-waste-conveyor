@@ -6,8 +6,8 @@ Bambu P1 and X1 series printers often have to purge filament from their hotends,
 
 What you're seeing here is my attempt at a conveyor belt that will sit behind any (reasonable) number of printers, automatically activate when enough waste piles up, transporting it to one end where presumably a large receptacle will catch them, then turn back off.
 
-[!NOTE]
-At the time of writing, the drive mechanism is not fully automated. Instead, the conveyor is actuated manually using a power screwdriver with a standard 6.35mm (1/4-inch) hex drive.
+> [!NOTE]
+> At the time of writing, the drive mechanism is not fully automated. Instead, the conveyor is actuated manually using a power screwdriver with a standard 6.35mm (1/4-inch) hex drive.
 
 [^1]: To keep this family-friendly, I have avoided using the more common term for this waste. 💩
 
