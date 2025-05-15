@@ -2,12 +2,14 @@
 Plans, model files, etc., for a conveyor that can remove waste from multiple Bambu P-class or X-class printers sitting next to each other.
 
 ## Background:
-Bambu P1 and X1 series printers often have to purge filament from their hotends, resulting in small amounts of waste filament that is expelled out the back of each printer and must then be disposed of. The maker space where I work has rows of these printers on shelves. It is difficult and dangerous to move the printers to remove the wastes, and worse, allowing the waste receptacles to overflow to the point where the wastes stay near the hotend can result in a clog that may require significant disassembly and can take hours to fix.
+Bambu P1 and X1 series printers often have to purge filament from their hotends, resulting in small amounts of waste filament[^1] that is expelled out the back of each printer and must then be disposed of. The maker space where I work has rows of these printers on shelves. It is difficult and dangerous to move the printers to remove the wastes, and worse, allowing the waste receptacles to overflow to the point where the wastes stay near the hotend can result in a clog that may require significant disassembly and can take hours to fix.
 
 What you're seeing here is my attempt at a conveyor belt that will sit behind any (reasonable) number of printers, automatically activate when enough waste piles up, transporting it to one end where presumably a large receptacle will catch them, then turn back off.
 
 [!NOTE]
 At the time of writing, the drive mechanism is not fully automated. Instead, the conveyor is actuated manually using a power screwdriver with a standard 6.35mm (1/4-inch) hex drive.
+
+[^1]: To keep this family-friendly, I have avoided using the more common term for this waste. 💩
 
 ## Description:
 The conveyor itself consists of a loop of roller chain that should be a bit longer than twice the length of the conveyor. The chain links are constructed out of 3D-printed rollers, inner links, and outer links. There is no "Master" link; because everything is pressure-fitted, any link can be opened when needed.
